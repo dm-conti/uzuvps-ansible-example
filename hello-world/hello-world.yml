@@ -1,0 +1,9 @@
+---
+# This playbook deploys a simple standalone JBoss server. 
+
+- name: Hello Ansible - quick start
+  hosts: localservers 
+  remote_user: root
+
+  roles:
+    - uzumaki

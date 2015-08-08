@@ -1,0 +1,4 @@
+---
+# This role deploys the mongod processes and sets up the replication set.
+
+- debug: msg="this is a task from role A"
