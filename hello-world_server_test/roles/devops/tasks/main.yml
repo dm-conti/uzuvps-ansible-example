@@ -1,0 +1,6 @@
+---
+# This role deploys the mongod processes and sets up the replication set.
+
+- debug: msg="Hello World !!!"
+- shell: touch hello-world.dat
+- shell: echo "Hello World" >> hello-world.dat

@@ -1,0 +1,9 @@
+---
+# This playbook deploys a simple standalone JBoss server.
+
+- name: Configure Tomcat Server with Ansible
+  hosts: testservers
+  remote_user: root
+
+  roles:
+    - devops
