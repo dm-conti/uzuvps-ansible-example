@@ -1,5 +1,0 @@
-# Here are variables related to the standalone JBoss installation
-ansible_ssh_user: vagrant
-ansible_ssh_port: 2222
-ansible_ssh_private_key_file: /Users/uzumaki/playbooks/.vagrant/machines/default/virtualbox/private_key
-host_key_checking: False

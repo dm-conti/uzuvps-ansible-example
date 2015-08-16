@@ -2,7 +2,7 @@
 # This playbook deploys a simple standalone JBoss server.
 
 - name: Configure Tomcat Server with Ansible
-  hosts: webservers
+  hosts: vagrant
   remote_user: root
   sudo: yes
 
